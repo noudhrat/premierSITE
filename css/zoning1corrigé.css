@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+    
+}
+
+main {
+    width: 1200px;
+    background: aliceblue;
+    margin: 0 auto;
+}
+
+
+
+header {
+    
+    width: 1200px;
+    background-color: yellow;
+    float: left;  
+    height: 150px;
+    
+}
+
+
+
+aside {
+    
+    width: 200px;
+    background-color:green;
+    float: left;  
+    min-height: 500px;
+    
+    
+}
+
+
+section {
+    
+    width: 1000px;
+    background-color: paleturquoise;
+    float: left;  
+    min-height: 500px;
+
+    
+}
+
+
+
+
+
+    

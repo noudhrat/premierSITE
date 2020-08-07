@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/* reset simple  */
+/* l'étoile signifie tout all */
+/* tous les éléments sont "taillés" de façon plus intuitive. ils conservent la taille que nous leur donnons. */
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* mes styles pour le premierSITE : noudhrat ahamed - colombbus */
+
+body {
+    background-image: url('../img/img/concrete-texture.png');
+    font-family: 'Oswald', sans-serif;
+}
+
+/* font-family: 'Anton', sans-serif; */
+
+/* font-family: 'Lemonada', cursive; */
+
+/* font-family: 'Oswald', sans-serif; */
+
+.clear {
+    clear: both;
+}
+
+h1{
+    font-size: 45px;
+    color: #2980b9;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-size: 35px ;
+    color: #2c3e50;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+h2 i {
+    color: #0099cc;
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+strong {
+    font-weight: bold;
+}
+/* à complèter */
+
+
+header {
+    height: 175px;
+    background: #2c3e50;
+}
+
+#logo { 
+    float: left;
+    width: 25%;
+    background: #2c3e50;
+    padding: 15px;
+    text-align: center;
+}
+
+#slogan { 
+    float: left;
+    width: 50%;
+    background: #2c3e50;
+    padding-top: 50px;
+}
+
+
+/* les style des icone facebook et instagram */
+#social {
+    float: left;
+     width: 25%;
+     
+}
+
+#social i {
+    /* background:#2c3e50 ; */
+    background-color: rgb(5, 3, 3);
+    font-size: 30px ;
+    text-align: right;
+    padding: 15px 30px 0 0;
+}
+
+header a {
+    text-decoration: none ;
+    color: #10828c;
+}
+/* fin de header */
+
+/* nav navigation */
+
+nav {
+    background: #2980b9;
+    height: 70px;
+    border-bottom: 8px solid #6acafc;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    background: #6acafc;
+    margin: 10px;
+    padding: 2px 10px;
+    border-radius: 10px 0;
+    border: 2px solid #ffffff;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'oswald', sans-serif;
+    /* transition sur le a marche avec le a : hover */
+    /* contrôle le durée en secondes ou en milli-secondes de la transition avec le pseudo class .hover */
+    transition: 0.5s;  
+
+}
+
+nav a:hover {
+    color: #ffffff;
+    background: #a6d6c3;
+}
+/* c'est une class qui permet de savoir dans quel page on est */
+.active {
+    color: orangered;
+    background: #a6d6c3;
+}
+/* les zones principales de la page et du site */
+
+main {
+    background: rgba(178, 178 , 178, 0.178) ;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+aside {
+    height: 250px;
+    background: #a6d6c3;
+    width: 30%;
+    float: left;
+}
+
+#accueil {
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+section {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+footer {
+    height: 30px ;
+    background: #2980b9;
+    margin-top: 10px;
+
+}
+
+ /* fin des zones principales */
+    
+/* le bouton pour aller en haut de page */
+
+button {
+    font-size: 350%;
+    background: transparent;
+    color: #2c3e50;
+    /* la position du bouton */
+    /* border: none; */
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+/* style de la page texte */
+.citation {
+    font: 20px'Lemonada', cursive ;
+
+}
+
+h2 i {
+    color: #2980b9;
+    font-size: 200%;
+    
+
+}
+
+blockquote i {
+    color: #6acafc;
+    font-size: 350%;
+    vertical-align: middle;
+}
+
+/* début page des images */
+
+
+
+@charset "UTF-8";
+/* reset simple  */
+/* l'étoile signifie tout all */
+ /* reset simple  
+    l'étoile signifie tout,  all en anglais  
+     tous les éléments sont taillés de façon plus intuitive. Ils conserveront la taille que nous leurs donnons   */
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* Mes styles pour le premierSIT4E : Christelle Estevane - Colombbus  */
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Lemonada', cursive;  */
+/* font-family: 'Oswald', sans-serif;  */
+body {
+    background-image: url('../img/concrete-texture.png');
+    font-family: 'Oswald' , sans serif;
+    /* styles pour les titres du site  */
+}
+.clear {
+    clear: both;
+}
+h1 {
+    font-size: 45px;
+    color: #2980B9;
+    text-align: center;letter-spacing: 1px;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+    font-style: 35px;
+    color: #2C3E50;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    }
+    h2 i {
+        color: #09c;
+        font-size: 150%;
+    }
+h3 {
+    font-size: 22px;
+    color: #2C3E50;
+    padding: 15px;
+    text-shadow: 1px 1px 2px #aaa;
+    }
+h4 {
+    text-align: center;
+    margin-top: 30px;
+    }
+strong {
+    font-weight: bold;
+    }
+/* à completer  */
+/* style pour header  */
+header {
+    height: 175px;
+    background: #2C3E50;
+    }
+#logo {
+    float: left;
+    width: 25%;
+    background: #2C3E50;
+    padding: 15px;
+    text-align: center;
+    }
+#slogan {
+    float: left;
+    width: 50%;
+    background: #2C3E50;
+    padding-top: 50px;
+    }
+/* styles pour header: les styles pour les îcones d'insta et facebook  */
+#social {
+    float: left;
+    width: 25%;
+    }
+#social i {
+    /* background: #2C3E50;  */
+    background: pink;
+    font-size: 30px;
+    text-align: right;
+    padding: 15px 30px 0 0;
+    }
+    header a {
+        text-decoration: none;
+        color: #10828C;
+    }
+    /* fin style header  */
+    /* nav navigation  */
+    nav {
+        background: #2980B9;
+        height: 70px;
+        border-bottom: 8px solid #6ACAFC;
+        text-align: center;
+        padding: 15px;
+    }
+    nav a {
+        background:#6acafc;
+        margin: 10px;
+        padding: 2px 10px;
+        border-radius: 10px 0;
+        border: 2px solid #fff;
+        color: #2C3E50;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        /* contrôle la durée en secondes ou en mili-secondes de la transition avec la pseudo class.hover  */
+        /* transition: 0.5s; transition sur le a marche avec le :hover  */
+    }
+    nav a:hover {
+        color: #fff;
+        background: #A6D6C3;
+    }
+    .active {
+        color: orangered;
+        background: #A6D6C3;
+    }
+    /* fin nav  */
+    /* les zones principales de la page et du site  */
+    main {
+        background: rgba(178, 178, 178, 0.178);
+        width: 1200px;
+        margin: auto;
+    }
+    aside {
+        height: 250px;
+        background: #A6D6C3;
+        width: 30%;
+        float: left;
+    }
+    #accueil {
+        float: left;
+        width: 70%;
+        /* padding: 10px;  */
+    }
+    section {
+        margin-top: 10px;
+        padding: 20px;
+    }
+    footer {
+        height: 30px;
+        background: #2980B9;
+        margin-top: 10px;
+    }
+    /* fin des zones principales  */
+    /* le bouton pour aller en haut de page  */
+    button {
+        font-size: 350%;
+        background: transparent;
+        border: none;
+        color: #2C3E50;
+        /* La position du bouton  */
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+    }
+    /* fin bouton  */
+    /* style de la page texte  */
+    .citation{
+        font: 20px 'Lemonada', cursive;
+    }
+    h2 {
+        font-size: 35px;
+        color: #2C3E50;
+        padding: 20px;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #aaa;
+    }
+    h2 i {
+        color: #2980B9 ;
+        font-size: 200%;
+    }
+    blockquote i {
+        color: #6ACAFC;
+        font-size: 350%;
+        vertical-align: middle;
+    }
+    /* début page des images  */
+    .imageFond {
+        background: url('../img/fond.jpg') no-repeat;
+        background-size: cover;
+    }
+    .imageFond p {
+        /* l'image apparaît car le p à une marge extérieur  très grande  */
+        width: 75%;
+        margin: 200px auto 250px auto;
+        padding: 20px;
+        /* rgba a alpha= trensparence  */
+        background: rgba(255, 255,255, 0.60);
+        border-radius: 10px;
+        font-size: 120%;
+    }
+    /* on cible une seule image avec son chemin relatif depuis la page HTML  */
+    img[src="img/toureiffel.jpg"] {
+        margin: auto;
+        display: block;
+        padding: 50px;
+        background: #fff;
+    }
+    .auCentre {
+        text-align: center;
+    }
+    .imageGolden {
+        margin: 20px;
+        border: 5px solid #fff;
+        box-shadow: 4px 4px 4px rgb(0, 0, 0, 0 2);
+    }
+
+    /* effet d'animation */
+
+    .imageGolden:hover { 
+        transform: rotate(-7deg);
+        border: 15px solid #fff;
+    }
+
+
+    .rotation360:hover {
+            transform: rotate(-360deg);
+
+    }

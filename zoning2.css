@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+    
+}
+
+#zoning2  {
+    width: 1200px;
+    margin: auto;
+   text-align: center;  
+     
+}
+
+#zoning2 header {
+    background-color:yellow;
+    height: 200px;
+
+}
+
+#zoning2 aside {
+    height: 400px;
+    width: 200px;
+    background-color: rgb(184, 139, 226);
+    float: left;
+}
+
+
+#zoning2 .milieu {
+    width: 800px;
+    background-color:pink;
+    float: left;
+    height: 400px;
+}
+
+footer {
+    background-color: turquoise;
+    
+}
