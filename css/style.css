@@ -468,3 +468,50 @@ header {
             transform: rotate(-360deg);
 
     }
+
+    /* zoning 2 */
+
+  /* à terminer */
+
+  /* page position */
+
+  .centre {
+      height: 200px;
+      width: 200px;
+      background-color: #6acafc;
+      margin: 0 auto;
+  }   
+/* position absolue */
+  .absolute {
+      height: 100px;
+      width: 100px;
+      background: yellow;
+      position: absolute;
+      top: 24%;
+      left: 10%;
+  }
+/* position relative */
+/* quand cest relatif c'est par rapport au parent, quand c'est absolute c'est par rapport au document sauf si l'élément est dans un parent relatif */
+  .relative {
+      background-color: #2980b9;
+      height: 400px;
+      width: 400px;
+      /* position relative à la section dans laquelle se trouve div; relative par rapport à son parent */
+      position: relative;
+      left: 100px ;
+      bottom: 10px;
+
+  }
+
+  .relative div {
+        /* contrairemnt à la div.absolute , plus haut cet élémenr étant oplacé dans une div à position relative, cette div est absolu par rapport à son parent et non par rapport au document */
+      background-color: #fff1a8;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+  }
+
+  
