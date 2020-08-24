@@ -469,7 +469,69 @@ header {
 
     }
 
+
+    /* zoning 1 */
+
+
+    body{
+        background-color: pink;
+        text-align: center
+    }
+    
+    main {
+        width: 1200px;
+        background: aliceblue;
+        margin: 0 auto;
+    }
+    
+    
+    
+    #haut {
+        
+        width: 1200px;
+        background-color: yellow;
+        float: left;  
+        height: 150px;
+        
+    }
+    
+    
+    
+    #gauche {
+        
+        width: 200px;
+        background-color:green;
+        float: left;  
+        height: 300px;
+        
+        
+    }
+    
+    
+    #droite {
+        
+        width: 1000px;
+        background-color: paleturquoise;
+        float: left;  
+        height: 300px;
+    
+        
+    }
+    
+
+
     /* zoning 2 */
+  #zoning2 {
+      background-color: pink;
+      width: 800px ;
+      margin: auto;
+      text-align: center;
+  }
+
+  #zoning2 header {
+      background-color: purple;
+      height: 70px;
+  }
 
   /* à terminer */
 

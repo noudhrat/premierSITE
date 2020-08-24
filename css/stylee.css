@@ -506,10 +506,13 @@ header {
 /* zoning 2 */
 
 #zoning2 {
-    background-color: pink;
     width: 800px ;
     margin: auto;
     text-align: center;
+    color: white;
+}
+.clear {
+    clear: both;
 }
 
 #zoning2 header {
@@ -517,3 +520,150 @@ header {
     height: 70px;
 }
 
+#zoning2 aside {
+    width: 25%;
+    height: 500px;
+    float: left;
+    color: red;
+}
+
+#zoning2 .milieu {
+    background-color: #f7f39a;
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin: 0;
+}
+
+/* zoning 3 */
+
+#zoning3 {
+    background: pink;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}  
+
+.clear {
+    clear: both;
+}
+
+#zoning3 section {
+    width: 50%;
+    height: 500px;
+    background-color: orchid ;
+    float: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#zoning3 section.orange {
+    background-color: orange;
+}
+    
+#zoning3 footer {
+    height: 70px;
+    float: left;
+    width: 100%;
+    background: #D8EBB5;
+    margin: 0;
+
+}
+    
+/* zoning 4 */
+
+#zoning4 {
+    width: 800px;
+    background-color: rgb(241, 201, 201);
+    margin: auto;
+    text-align: center ;
+    color: white;
+    
+
+}
+
+#zoning4 header {
+    background-color: rgb(129, 252, 129);
+    min-height: 100px;
+}
+
+#zoning4 nav {
+    background-color: rgb(0, 0, 214);
+    min-height: 50px;
+    border: none;
+    
+}
+
+#zoning4 nav p {
+    margin: auto;
+}
+
+#zoning4 section {
+    background-color: rgb(223, 65, 126);
+    height: 500px;
+    margin: 20px;
+    
+    
+    
+}
+
+
+
+#zoning4 footer {
+    background-color: rgb(255, 243, 194);
+    height: 50px;
+    
+}
+    
+/* zoning 5 */
+
+body {
+    background-color: pink;
+}
+#zoning5 {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#zoning5 header {
+    height: 80px;
+    background-color: olive;
+}
+#zoning5 nav {
+    background-color: powderblue;
+    height: 30px;
+}
+#zoning5 section {
+    background-color: yellow;
+    height: 500px;
+    margin: 20px;
+}
+#zoning5 .a {
+   background-color: beige;
+   height: 250px;
+   float: left;
+   width: 480px; 
+}
+#zoning5 .b {
+    background-color: powderblue;
+    height: 250px;
+    float: left;
+    width: 480px; 
+ }
+ #zoning5 .c {
+    background-color: mediumspringgreen;
+    height: 250px;
+    float: left; 
+    width: 480px;
+}
+#zoning5 .d {
+    background-color: violet; 
+    height: 250px;
+    float: left;
+    width: 480px;
+}
+#zoning5 footer {
+    background-color: tomato;
+    height: 60px;
+}
