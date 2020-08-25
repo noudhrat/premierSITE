@@ -1,0 +1,113 @@
+
+
+body {
+    background-color: rgb(248, 230, 230);
+}
+
+#zoning6 {
+    width: 1000px;
+    background-color: lightpink;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+
+header .haut1 {
+        width: 25%;
+        height: 200px;
+        background-color: red;
+        float: left;
+}
+
+header .haut2 {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(89, 128, 106);
+    float: left;
+}
+
+ header .haut3 {
+     width: 25%;
+     height: 200px;
+     background-color: rgb(152, 233, 202);
+     float: left;     
+  }
+
+  nav {
+      /* height: 50px; */
+      background-color: rgb(135, 214, 245); 
+      padding-bottom: 2%;   
+      
+      
+  }
+
+  aside {
+      background-color: rgb(215, 188, 240);
+      float: left;
+      height: 457px;
+      width: 25%;
+      
+  }
+
+  #section1 .a {
+      background-color: bisque;
+      width: 40%;
+      height: 170px;
+      float: left;
+
+  }
+
+  #section1 .b {
+    background-color: rgb(221, 226, 236);
+    width: 35%;
+    height: 170px;
+    float: left;
+}
+
+#section2 .diap {
+    background-color: rgb(169, 207, 111);
+    width: 100%;
+    padding-bottom: 18%;
+    
+    
+}
+
+#section3 .c {
+    background-color: greenyellow;
+    float: left;
+    width: 19%;
+    padding-bottom: 7%;
+}
+
+#section3 .d {
+    background-color: purple;
+    float: left;
+    width: 19%;
+    padding-bottom: 7%;
+}
+
+#section3 .e {
+    background-color: orange;
+    float: left;
+    width: 19%;
+    padding-bottom: 7%;
+}
+
+#section3 .f {
+    background-color: red;
+    width: 18%;
+    float: left;
+    padding-bottom: 7%
+}
+
+footer {
+    background-color: rgb(3, 3, 124);
+    float: left;
+    width: 100%;
+    height: 35px;
+    
+}
+
+
+

@@ -618,52 +618,52 @@ header {
     
 /* zoning 5 */
 
-body {
-    background-color: pink;
-}
 #zoning5 {
+    background-color: rgb(240, 181, 126);
+    margin: auto;
+    text-align: center;
     width: 1000px;
-    background-color: #fff;
-    margin: 0 auto;
 }
+
 #zoning5 header {
-    height: 80px;
-    background-color: olive;
+    height: 100px;
+    background: palevioletred;
 }
+
 #zoning5 nav {
-    background-color: powderblue;
-    height: 30px;
+        height: 50px;
+        background: rgba(124, 107 , 187);
+        border-bottom: 8px solid #333;
 }
+
 #zoning5 section {
-    background-color: yellow;
-    height: 500px;
+    background: #176d81;
     margin: 20px;
+    padding: 0;
 }
-#zoning5 .a {
-   background-color: beige;
-   height: 250px;
-   float: left;
-   width: 480px; 
-}
-#zoning5 .b {
-    background-color: powderblue;
+
+#zoning5 .section .z1, .z2, .z3, .z4 {
     height: 250px;
+    width: 50% ;
     float: left;
-    width: 480px; 
- }
- #zoning5 .c {
-    background-color: mediumspringgreen;
-    height: 250px;
-    float: left; 
-    width: 480px;
 }
-#zoning5 .d {
-    background-color: violet; 
-    height: 250px;
-    float: left;
-    width: 480px;
+
+#zoning5 .section .z1, .z2, .z3, .z4 p {
+    /* line-height = à la hauteur de lélément si il y a un paragrphe court, qui tient sur une seule ligne */
+    line-height: 250px;
 }
+
+#zoning5 .z1, .z4 {
+    background: rgb(220, 230, 207);
+}
+
+#zoning5 .z2, .z3 {
+    background: lavender;
+}
+
 #zoning5 footer {
-    background-color: tomato;
-    height: 60px;
+    height: 100px;
+    background: rgb(223, 182, 209);
+    
 }
+
