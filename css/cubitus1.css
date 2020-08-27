@@ -18,7 +18,7 @@ section {
     background-color: lightcoral;
 }
 
- .c1  {
+ #section1 .c1  {
     width: 10em;
     height: 10em; 
     float: left;
@@ -28,8 +28,34 @@ section {
           
 }
 
- .rose .c1 .bloc8{
-    float: initial;
+ 
 
+
+#section2 .c1 { 
+    width: 10em;
+    height: 10em; 
+    float: left;
+    border: white 2px solid;
+    color: white;
+    border-radius: 10px 10px 60px 10px;
+           
+}
+
+#section3 .c1 {
+    width: 10em;
+    height: 10em; 
+    float: left;
+    border: white 2px solid;
+    color: white;
+    border-radius: 10px 10px 60px 10px;
+}
+
+#section4 .c1 {
+    width: 10em;
+    height: 10em; 
+    float: left;
+    border: white 2px solid;
+    color: white;
+    border-radius: 10px 10px 60px 10px;
 }
 
