@@ -667,3 +667,225 @@ header {
     
 }
 
+
+ /* page position */
+
+ .centre {
+    height: 200px;
+    width: 200px;
+    background-color: #6acafc;
+    margin: 0 auto;
+}   
+/* position absolue */
+.absolute {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+/* position relative */
+/* quand cest relatif c'est par rapport au parent, quand c'est absolute c'est par rapport au document sauf si l'élément est dans un parent relatif */
+.relative {
+    background-color: #2980b9;
+    height: 400px;
+    width: 400px;
+    /* position relative à la section dans laquelle se trouve div; relative par rapport à son parent */
+    position: relative;
+    left: 100px ;
+    bottom: 10px;
+
+}
+
+.relative div {
+      /* contrairemnt à la div.absolute , plus haut cet élémenr étant oplacé dans une div à position relative, cette div est absolu par rapport à son parent et non par rapport au document */
+    background-color: #fff1a8;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+/* pourcentage */
+
+.trente {
+    width: 30%;
+    padding: 20px;
+    font-size: 22px;
+    background-color: red;
+    color: powderblue;
+}
+
+.cinquante {
+    font-size: 22px;
+    width: 50%;
+    background: orangered;
+    padding: 20px;
+    color: #fff;
+}
+
+.cent{
+    font-size: 22px;
+    width: 100%;
+    background: rgb(241, 201, 201);
+    padding: 20px;
+    color: green;
+}
+
+/* float */
+.float {
+    height: 170px;
+    width: 170px;
+    background-color: yellow;
+    border: 2px solid darkred;
+    margin: 10px;
+    float: left;
+
+    text-align: center;
+    font-size: 22px;
+}
+
+.dernier {
+    height: 170px;
+    width: 170px;
+    background-color: yellow;
+    border: 2px solid darkred;
+    margin: 10px;
+     padding-top: 2px;
+    text-align: center;
+    font-size: 22px;
+    /* float: left; */
+
+}
+
+/* exemple sur le float */
+
+.zone {
+    height:70px;
+    background-color: #333 ;
+}
+
+.zone1, .zone2, .zone3, .zone4 {
+    height: 250px;
+    width: 25%;
+    float: left;
+}
+
+.zone1 {
+    background: #2D5C7F;
+}
+
+.zone2 {
+    background: #FFF1AB;
+}
+
+.zone3 {
+    background: #FF8F56;
+}
+
+
+.zone4 {
+    background: #984A59;
+}
+
+/* flexbox */
+
+
+/* la page des liens */
+
+.ancre {
+    text-align: center;
+    padding: 100px;
+}
+
+.ancre a {
+    margin: 8px;
+    padding: 5px 10px;
+    background: #502c48;
+    box-shadow: 0px 0px 10px 3px rgb(151, 151, 151);
+    border-radius: 15px;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.ancre a:hover {
+    box-shadow: none;
+    transition-duration: 0.5s;
+    text-shadow: 1px 5px 10px grey;
+}
+
+#menu nav {
+    background: transparent;
+    border: none;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu nav a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+    background: #ddd;
+    transition: 1s ease-in;
+}
+
+#menu nav a:hover {
+    color: #fff;
+    background: #069;
+}
+
+/* le menu avec les menus déroulants */
+
+#menuderoulant{
+    height: 650px;
+}
+
+#menuderoulant nav {
+    background: transparent;
+    width: 90%;
+    border: none;
+    margin: 0 auto;
+}
+
+#menuderoulant nav ul li {
+    list-style: none;
+     width: 20%;
+     float: left;
+}
+
+#menuderoulant ul ul {
+    display: none;
+}
+
+#menuderoulant nav ul li ul li {
+    border-top: 1px solid #464646;
+    width: 100%;
+
+}
+
+#menuderoulant nav li {
+    background: #ccc;
+
+}
+
+#menuderoulant nav li a {
+    display: block;
+    padding: 4px 0;
+    /* width: 1500px; */
+
+}
+
+#menuderoulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+    display: block ;
+}
