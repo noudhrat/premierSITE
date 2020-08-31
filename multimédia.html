@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="mon premier site colombbus suresnes">
+    <meta name= "keyword"    content="HTML, CSS, Noudhrat ahamed, colombbus suresnes" >
+    <meta name= "author"      content="noudhrat ahamed">
+    <!-- les styles du premierSITE -->
+    <title>PremierSITE - animation</title>
+    <!-- les styles du premierSITE -->
+    <link rel="stylesheet" href="css/stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/0d9ff3b0dd.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <header>
+
+        <div id= "logo">
+            <a href="#logo"> 
+                <button type="button" ><i class="fas fa-arrow-circle-up"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo premier site">
+        </div> 
+
+        <div id="slogan">
+            <a href="index.html" title="mon premier site HTML CSS" - accueil> 
+                <h1>Mon premier site HTML5 et CSS3</h1>
+            </a>
+        </div>
+
+        <div id="social">
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+             <a href="https://fr-fr.facebook.com/" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+        </div>
+
+        <div class="clear"></div> 
+
+    </header>
+    <nav>
+   <div class="encrenav">
+          <a href="index.html" title="accueil">accueil</a>
+                            <a href="text.html" title="texte" >text</a>
+                            <a href="selecteur.html" title="selecteur">selecteur</a>
+                            <a href="image.html" title="image">image</a>
+                            <a href="position.html" title="position" >position</a>
+                            <a href="zoning" title="zoning">zoning</a>
+                            <a href="tableau.html" title="tableau">tableau</a>
+                            <a href="liste.html" title="liste">liste</a>
+                            <a href="liens_menu.html" title="liens_menu">liens_menu</a>
+                            <a href="formulaire.html" title="formulaire">formulaire</a>
+                            <a href="multimédia.html" title="multimédia" class="active">multimédia</a>
+                            <a href="animation.html" title="animation">animation</a>
+                            <a href="recap.html" title="recap">recap</a>
+
+        
+    </div>
+    </nav>
+<main> 
+   
+<h2>multimédia - <i class="fas fa-film"></i> </h2>
+
+  <section class="videofond"><h3>une vidéo en fond</h3>
+    <div class="videotexte">
+    <!-- le navigateur va par défaut, le plus souvent, bloquer les contenu audio et videos -->
+    <!-- voilà pourquoi il préférable de mettre les outils de lecture de stop ect. la barre de contrôle de la video -->
+    <video autoplay loop controls>
+    <!-- muted dans les attributs de lélement video est un moyen de contourner le non lancement de la video mais elle est muette -->
+        <source src="video/videoBackground.mp4" type="video/mp4">
+    </video>
+     <p>Une vidéo en noir et blanc</p>
+    </div>    
+  </section>
+
+  <section>
+      <h3>une vidéo intégré depuis youtube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Gcqu2V5lBZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section class="audio">
+  <h3>audio, les sons</h3>  
+  <h4>Format .mp3</h4>  
+  <br>
+  <audio src="audio/sf_ambi_oiseaux_campagne_01.mp3" controls></audio>
+
+  <h4>Format ogg</h4>
+  <br>
+  <audio src="audio/son.ogg" controls><p>Votre navigateur ne prend pas en charge la balise audio</p> </audio>
+  <br>
+  <audio src="audio/sf_ambi_oiseaux_campagne_01.mp3" controls autoplay></audio>
+
+  <hr>
+  <audio controls>
+      <source src="audio/son.mp3" type="audio/mpeg">
+
+      <source src="audio/son.ogg" type="audio/ogg">
+  </audio>
+
+
+  </section>
+        <div class="clear"></div>
+        
+</main>
+    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis? Odio exercitationem doloremque laudantium labore totam ipsum perferendis debitis laborum, nam quo consectetur molestiae cupiditate corporis modi nisi, expedita impedit.</footer>
+</body>
+</html>
