@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="mon premier site colombbus suresnes">
+    <meta name= "keyword"    content="HTML, CSS, Noudhrat ahamed, colombbus suresnes" >
+    <meta name= "author"      content="noudhrat ahamed">
+    <!-- les styles du premierSITE -->
+    <title>PremierSITE - formulaire</title>
+    <!-- les styles du premierSITE -->
+    <link rel="stylesheet" href="css/stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/0d9ff3b0dd.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <header>
+
+        <div id= "logo">
+            <a href="#logo"> 
+                <button type="button" ><i class="fas fa-arrow-circle-up"></i></button>
+            </a>
+            <img src="img/img/logo.png" alt="logo premier site">
+        </div> 
+
+        <div id="slogan">
+            <a href="index.html" title="mon premier site HTML CSS" - accueil> 
+                <h1>Mon premier site HTML5 et CSS3</h1>
+            </a>
+        </div>
+
+        <div id="social">
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+             <a href="https://fr-fr.facebook.com/" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+        </div>
+
+        <div class="clear"></div> 
+
+    </header>
+    <nav>
+   <div class="encrenav">
+          <a href="index.html" title="accueil">accueil</a>
+                            <a href="text.html" title="texte">text</a>
+                            <a href="selecteur.html" title="selecteur">selecteur</a>
+                            <a href="image.html" title="image">image</a>
+                            <a href="position.html" title="position" >position</a>
+                            <a href="zoning" title="zoning">zoning</a>
+                            <a href="tableau.html" title="tableau">tableau</a>
+                            <a href="liste.html" title="liste">liste</a>
+                            <a href="liens_menu.html" title="liens_menu">liens_menu</a>
+                            <a href="formulaire.html" title="formulaire" class="active">formulaire</a>
+                            <a href="multimédia.html" title="multimédia">multimédia</a>
+                            <a href="animation.html" title="animation">animation</a>
+                            <a href="recap.html" title="recap">recap</a>
+
+        
+    </div>
+    </nav>
+<main> 
+    <h2>Un formulaire</h2>
+    <section class="formulaire">
+
+        <!-- action = url de destination (une adresse url ou un fichier) parfois cela peut être vide -->
+        <!-- method = manière de faire circuler les données (POST ou GET ou post ou GET) (ENVOYER ou RECUPERER) -->
+        <!-- enctype = pour envoyer le fichier correctement si nous envoyons un fichier pour cela il faut un input de type file -->
+        <form action="inscription.php" method="POST" enctype="multipart/form-data">
+
+            <label for="pseudo">Pseudo *</label>    
+            <input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo" required>
+            <br>
+            <label for="prenom">prénom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+
+            <label for="password">Mot de passe *</label>
+            <input type="password" name="password" id="password" placeholder="Votre prénom" required>
+            <br>
+            <label for="email">Courriel</label>
+            <input type="email" name="email" id="email" placeholder="Votre courriel" required>
+
+            <p>Quels sont vos fruits préférés</p>
+
+            <label for="orange">Orange</label>
+            <input type="checkbox" name="fruits[]" id="orange" value="orange">
+
+            <label for="fraise">Fraise</label>
+            <input type="checkbox" name="fruits[]" id="fraise" value="fraise">
+
+            <label for="kiwi">Kiwi</label>
+            <input type="checkbox" name="fruits[]" id="kiwi" value="kiwi">
+            
+            <label for="cerise">Cerise</label>
+            <input type="checkbox" name="fruits[]" id="cerise" value="cerise" checked>
+
+            <p>Si vous devez sauver un légume de la destruction ; lequel ? </p>
+
+            <label for="légume">Faites un choix</label>
+            <select name="legumes" id="legumes">
+                <option value="poireau">Poireaux</option>
+                <option value="choux de bruxelles">Choux de bruxelles</option>
+                <option value="céleri">Céleri</option>
+                <option value="épinard">épinards</option>
+        </select>
+        <br>
+
+            <label for="message">Votre commentaire</label>
+            <textarea name="message" id="message" cols="30" rows="10"
+            placehorlder="dites nous ce que vous en pensez"></textarea>
+
+            <input type="submit" name="envoyer" value="Envoyer">
+            <input type="reset" name="annuler" value="Annuler">
+
+        </form>
+
+
+
+    </section>
+
+        <div class="clear"></div>
+</main> 
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis? Odio exercitationem doloremque laudantium labore totam ipsum perferendis debitis laborum, nam quo consectetur molestiae cupiditate corporis modi nisi, expedita impedit.</p>
+    </footer>
+</body>
+</html>

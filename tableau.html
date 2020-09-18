@@ -7,7 +7,7 @@
     <meta name= "keyword"    content="HTML, CSS, Noudhrat ahamed, colombbus suresnes" >
     <meta name= "author"      content="noudhrat ahamed">
     <!-- les styles du premierSITE -->
-    <title>PremierSITE - texte</title>
+    <title>PremierSITE - Un tableau</title>
     <!-- les styles du premierSITE -->
     <link rel="stylesheet" href="css/stylee.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -45,9 +45,9 @@
                             <a href="text.html" title="texte">text</a>
                             <a href="selecteur.html" title="selecteur">selecteur</a>
                             <a href="image.html" title="image">image</a>
-                            <a href="position.html" title="position" class="active" >position</a>
+                            <a href="position.html" title="position" >position</a>
                             <a href="zoning" title="zoning">zoning</a>
-                            <a href="tableau.html" title="tableau">tableau</a>
+                            <a href="tableau.html" title="tableau" class="active">tableau</a>
                             <a href="liste.html" title="liste">liste</a>
                             <a href="liens_menu.html" title="liens_menu">liens_menu</a>
                             <a href="formulaire.html" title="formulaire">formulaire</a>
@@ -59,75 +59,62 @@
     </div>
     </nav>
 <main> 
-        <h2>Les positions -</h2>
-        <section>
-            <h3>centrer un élément de type bloc</h3>
-            <div class="centre">n°1</div>
-        </section>
-        <section>
-            <h3>position "absolute"</h3>
-            <p>n°2 : un carré jaune ; ...hey! regardez en haut!!!</p>
-            <div class="absolute">n°2</div>
-        </section>
 
-        <section>
-            <h3>position relative</h3>
-            <div class="relative">
-                <div>n°3</div>
-            </div>
-        </section>
-        <section>
-         <h3>position fixed</h3>
-         <p>cf. le bouton vers le haut de la page (en bas à droite)</p>
-        </section>
+    <section class="tableau">
+    <h2>Un tableau - <i class="fas fa-table"></i></h2>
+    <table>
+        <caption><i class="fas fa-plane"></i>Vols /// Paris -> Rome</caption>
+        <thead>
+            <tr>
+                <td>Dates</td>
+                <td>01/09/20</td>
+                <td>03/09/20</td>
+                <td>05/09/20</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Dates</td>
+                <td>01/09/20</td>
+                <td>03/09/20</td>
+                <td>05/09/20</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="2">Air France</td>
+                <td>Départ 15 h 00 - Arrivé 17 h 00</td>
+                <td>Départ 12h00 - Arrivé 15 h 00</td>
+                <td>Départ 18 h 00 - Arrivé 20 h 00</td>
+            </tr>
+            <tr>
+                
+                <td>200€</td>
+                <td>180€</td>
+                <td>170€</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Alitalia</td>
+                <td>Départ 6 h 00 - Arrivé 9 h 00</td>
+                <td>Départ 13h00 - Arrivé 16 h 00</td>
+                <td>Départ 21 h 00 - Arrivé 00 h 00</td>
+            </tr>
 
-        <section>
-          <h3>le pourcentage</h3>
-          <div class="trente">30%</div>
-          <div class="cinquante">50%</div>
-          <div class="cent">100%</div>
+            <tr>
+                
+                <td>150€</td>
+                <td>160€</td>
+                <td>150€</td>
+            </tr>
+        </tbody>
+    </table>
 
-        </section>
-
-         <section>
-             <h3>l'attribut float</h3>
-             <div class="float">1</div>
-             <div class="float">2</div>
-             <div class="float">3</div>
-             <div class="float">4</div>
-             <div class="float clear">5</div>
-             <div class="float">6</div>
-             <div class="float">7</div>
-             <div class="float clear">8</div>
-             <div class="float ">9</div>
-             <div class="dernier clear">10</div>
-         </section>
-
-         <section>
-             <h3>Autre exemple sur le float</h3>
-             <div class="zone"></div>
-
-             <div class="zone1"></div>
-             <div class="zone2"></div>
-             <div class="zone3"></div>
-             <div class="zone4"></div>
-
-             <div class="zone clear"></div>
-         </section>
-
-         <section>
-             <h3>flexbox !</h3>
-             <article class="flex">
-                 <div><p>1</p></div>
-                 <div><p>2</p></div>
-                 <div><p>3</p></div>
-                 <div><p>4</p></div>
-            </article>
-         </section>
-         
+    </section>
+   
         <div class="clear"></div>
-        
-</main>
-    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis? Odio exercitationem doloremque laudantium labore totam ipsum perferendis debitis laborum, nam quo consectetur molestiae cupiditate corporis modi nisi, expedita impedit.</footer>
+</main> 
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis? Odio exercitationem doloremque laudantium labore totam ipsum perferendis debitis laborum, nam quo consectetur molestiae cupiditate corporis modi nisi, expedita impedit.</p>
+    </footer>
 </body>
 </html>

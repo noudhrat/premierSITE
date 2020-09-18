@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asterix - float</title>
+    <style>
+
+        #conteneur {
+            margin: 0 auto;
+        }
+
+        body {
+            background: rgb(255, 236, 236);
+            
+        }
+
+        .paragrapheun {
+            margin: 0 auto;
+        }
+
+        .gr{
+            text-align: center;
+            color: white;
+            background: rgb(241, 241, 140);
+            width: 90%;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        .paragraphedeux nav {
+        
+        }
+
+        nav {
+            background: rgb(218, 203, 203);
+            width: 30%;
+            height: 250px;
+            margin: 0 auto;
+            float: left;
+        }
+
+        article {
+            background: rgb(226, 222, 222);
+            width: 70%;
+            height: 250px;
+            float: left;
+        }
+        
+        footer {
+            background: rgb(241, 241, 140);
+        }
+
+      clear {
+          clear: both;
+      }  
+    </style>
+</head>
+<body>
+    <div id="conteneur">
+    <section class="paragrapheun">
+    <h3>HTML CSS : une maquette responsive en float</h3> 
+        <p>dans cet exemple, nous avons une en-tête, 2 colonnes/boîtes et un pied de page</p>
+        <p>Sur un écran inférieur à 600px, les colonnes se placeront les unes  au dessus des autres</p>
+        <p>Redimensionnez la fenêtre pour voir les colonnes qui se placent les uns au dessus des autres</p>
+    </section>
+
+    <section class="paragraphedeux">
+        <h1 class="gr">Asterix le Gaulois</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Astérix</a></li>
+            <li><a href="#">Obélix</a></li>
+            <li><a href="#">Panoramix</a></li>
+            <li><a href="#">Bonemine</a></li>
+        </ul>
+    </nav>
+
+    <div class="clear"></div>
+
+    <article>
+        <h4>Astérix</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum voluptates illum consectetur molestiae necessitatibus </p>
+    </article>
+        </section>
+    <div class="clear"></div>
+
+    </div>
+
+    <footer>
+        <p>Pied de page</p>
+    </footer>
+
+</body>
+</html>
