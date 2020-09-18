@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tintin - flex</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        #conteneur {
+    
+        
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        header {
+            background: #5bccd6;
+            text-align: center;
+            color: #ffffff;
+            font-size: 25px;
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            width: 30%;
+            background:#469ba3;
+            height: 150px;
+            /* padding: 20px; */
+        }
+
+        nav ul {
+            list-style: none;
+            
+        }
+
+        article {
+            display: flex;
+            width: 70%;
+            background: #a1d8dd;
+            height: 150px;
+            padding: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        footer {
+            background: #255357;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;   
+            /* flex-shrink: 0; */
+        }
+
+        .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    @media (max-width: 600px) {
+        nav, article {
+            width: 100%;
+        }
+    }
+
+     
+    </style>
+</head>
+<body>
+    <!--debut de conteneur-->
+    <div id="conteneur"> 
+        <h2>HTML CSS :une maquette responsive en flex</h2>
+        <p>Dans cet exemple nous avons un en-tête, 2 colonnes/boites et un pied de page</p>
+        <p>Sur un écran inférieur à 600px les colonnes se placerons les uns au dessus des autres</p>
+        
+        <!--debut header-->
+        <header class="row">
+            <h2>Les aventures de tintin</h2>
+        </header> <!--fin de header-->
+        
+        <!--debut de section-->
+        <section class="row" >
+            <!--debut de nav-->
+            <nav> 
+                <ul>
+                    <li><a href="#">Tintin</a></li>
+                    <li><a href="#">Le capitaine haddock</a></li>
+                    <li><a href="#">Milou</a></li>
+                    <li><a href="#">Le professeur tournesol</a></li>
+                </ul>
+            </nav> <!--fin de nav-->
+        
+            <!--debut d'article-->
+            <article>
+                <h3>Tintin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto error omnis quo unde, eveniet ullam. Vel accusantium sit rem neque aut magnam, molestiae iure ut mollitia quisquam provident porro magni. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article> <!--fin d'article-->
+
+        </section> <!--fin de section-->
+        
+        <div class="clear"></div>
+
+    </div> <!--fin de conteneur-->
+
+        <!--debut de footer-->
+        <footer class="row">
+            <p>Pied de page</p>
+        </footer> <!--fin de footer-->
+    
+</body>
+</html>

@@ -3,19 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asterix - float</title>
+    <title>Une maquette responsive en float</title>
     <style>
 
-       
+        *{
+            box-sizing: border-box;
+        }
+
+        .bleu {
+            background: rgb(206, 236, 255);
+        }
+       .orange {
+           background: rgb(238, 202, 135);
+       }
       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background: rgb(238, 225, 45);
+            padding: 30px;
+
+            text-align: center;
+            font-size: 35px;
+            color: #fff;
+        }
+
+        /* création des éléments qui flottent les uns par rapport aux autres */
+
+        clear {
+            clear: both;
+        }
+
+        /* autre méthode pour rétablir le flux */
+
+        section:after {
+            /* apres la section contenu vide, ce qui permet de bien avoir les caractéristiques de footer (le padding) */
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        nav {
+            float: left;
+            width: 30%;
+            background:#ccc;
+            height: 300px;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            width: 70%;
+            background: #f1f1f1;
+            height: 300px;
+            padding: 20px;
+        }
+
+        footer {
+            background: rgb(233, 220, 45);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            /* line-height: 2.5; */
+        }
+
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+       
     </style>
 </head>
 <body>
-    <div id="conteneur">
-   
-    </div>
+    <h2>HTML CSS : une maquette responsive en float</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, amet facere? Sit, maxime autem. Asperiores fuga consequuntur dicta explicabo natus? Asperiores quaerat error libero molestiae excepturi totam veniam, quasi dicta?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus asperiores sapiente officia hic fugiat maxime nam, quibusdam sequi qui, nulla reprehenderit doloribus beatae dolorem consectetur, consequatur necessitatibus harum ducimus.</p>
 
+    <header>
+    <h2>Astérix le Gaulois</h2>
+    </header>
 
+    <section>
+      <nav>
+        <p class="bleu">Indication : <code>&slt;nav&gt;</code> : 30%</p>
+    <ul>
+        <li><a href="#">Astérix</a></li>
+        <li><a href="#">Obélix</a></li>
+        <li><a href="#">Panoramix</a></li>
+        <li><a href="#">Bonemine</a></li>
+    </ul>
+      </nav>
+
+    <article>
+        <p class="bleu">Indication : <code>&slt;nav&gt;</code> : 70%</p>
+    <h3>Asterix</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea debitis ipsam velit fugit ab voluptates nobis unde magni nihil accusamus nam reiciendis tempore autem nostrum, nesciunt quaerat inventore officia!</p>
+    </article>
+</section>    
+    <div class="clear"></div>
+    <footer>
+        <p>Pied de page</p>
+    </footer>
+    
 
 </body>
 </html>
